@@ -13,7 +13,6 @@ define :fix_ring do | input |
   
   result = input.to_a
   max = selected + 1
-  puts max
   for index in 0..selected do
       result[index]=input[(index + 1) % max]
     end
