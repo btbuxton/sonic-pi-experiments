@@ -5,10 +5,8 @@ root_note = :C2
 notes = scale(root_note, :blues_minor).collect { | each | midi_to_hz each }
 root = midi_to_hz root_note
 divs = notes.collect { | each | each / root }.shuffle
-print divs
-print divs.length
-#print [*0..12]
-use_bpm 60
+
+use_bpm 90
 with_fx :echo, phase: 6/5.0, decay: 8 do
   with_fx :slicer, phase: 2/3.0, pulse_width: 0.25 do
     live_loop :drone do
