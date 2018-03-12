@@ -1,3 +1,4 @@
+#drama
 use_synth :sine
 
 in_thread name: :down, delay: 0 do

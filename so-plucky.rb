@@ -1,3 +1,4 @@
+#so plucky
 use_bpm 86
 notes =  (scale(:e2, :minor_pentatonic)).shuffle
 use_synth :pluck

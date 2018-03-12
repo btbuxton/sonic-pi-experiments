@@ -1,3 +1,4 @@
+#far away
 use_bpm 240
 notes =  scale(:e3, :minor_pentatonic).shuffle
 live_loop :foo do

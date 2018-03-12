@@ -1,3 +1,5 @@
+#sci-fi drums
+# to study
 use_synth :tb303
 #with_fx :wobble do
 #  play 50, sustain: 4

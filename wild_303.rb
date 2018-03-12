@@ -1,3 +1,4 @@
+#wild 303
 notes = (scale :e1, :minor_pentatonic, num_octaves: 2).shuffle
 
 s = synth :tb303, sustain: 8, note_slide: 0.05, cutoff_slide: 0.20

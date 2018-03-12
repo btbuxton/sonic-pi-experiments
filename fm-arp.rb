@@ -1,3 +1,4 @@
+#fm arp
 use_bpm 120
 use_synth :fm
 notes = chord(:e3, :sus4).shuffle
