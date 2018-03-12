@@ -1,3 +1,4 @@
+#bit rhythm
 use_synth :fm
 use_bpm 90
 
